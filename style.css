@@ -13,3 +13,6 @@ body {
     background-size: 100%;
 }
 
+.a-modal {
+    display: none!important;
+}
