@@ -4,7 +4,12 @@ h1 {
     left: 50%;
     align-content: center;
     transform: translate(-50%, -50%);
-    font-size: 80px;
-    color: lightcoral;
+    font-size: 65px;
+    color: cyan;
+    white-space: nowrap;
+}
+
+body {
+    background-size: 100%;
 }
 
