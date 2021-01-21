@@ -6,7 +6,7 @@ h1 {
     transform: translate(-50%, -50%);
     font-size: 35px;
     color: coral;
-    white-space: nowrap;
+  <!-- white-space: nowrap;-->
 }
 
 body {
