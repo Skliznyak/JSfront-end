@@ -8,11 +8,3 @@ h1 {
     color: lightcoral;
 }
 
-iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    align-content: center;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-}
