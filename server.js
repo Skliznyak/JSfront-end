@@ -16,7 +16,31 @@ const server = http.createServer(function (request, response) {
         const text = fs.readFileSync('index.html', 'utf8');
         response.end(text);
     }
-
+    if (request.url == '/AR_Progect/task_5.html')
+    {
+        const text = fs.readFileSync('./AR_Progect/task_5.html', 'utf8');
+        response.end(text);
+    }
+    if (request.url == '/AR_Progect/AR.js-master/aframe/build/aframe-ar.min.js')
+    {
+        const text = fs.readFileSync('./AR_Progect/AR.js-master/aframe/build/aframe-ar.min.js', 'utf8');
+        response.end(text);
+    }
+    if (request.url == '/AR_Progect/aframe/aframe.min.js')
+    {
+        const text = fs.readFileSync('./AR_Progect/aframe/aframe.min.js', 'utf8');
+        response.end(text);
+    }
+    if (request.url == '/AR_Progect/js/script_5.js')
+    {
+        const text = fs.readFileSync('./AR_Progect/js/script_5.js', 'utf8');
+        response.end(text);
+    }
+    if (request.url == '/AR_Progect/images/pattern-photo5210865773793358070.patt')
+    {
+        const text = fs.readFileSync('./AR_Progect/images/pattern-photo5210865773793358070.patt', 'utf8');
+        response.end(text);
+    }
 });
-server.listen(process.env.PORT || 3000);
+server.listen(3000)
 console.log('server started');
