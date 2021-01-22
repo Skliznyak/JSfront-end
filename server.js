@@ -38,7 +38,7 @@ const server = http.createServer(function (request, response) {
     }
     else if (request.url == '/AR_Progect/images/pattern-094b64de-f0af-4f20-9989-1bc55361e7b4.patt')
     {
-        const text = fs.readFileSync('./images/pattern-094b64de-f0af-4f20-9989-1bc55361e7b4.patt', 'utf8');
+        const text = fs.readFileSync('/AR_Progect/images/pattern-094b64de-f0af-4f20-9989-1bc55361e7b4.patt', 'utf8');
         response.end(text);
     }
 });
