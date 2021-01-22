@@ -36,9 +36,9 @@ const server = http.createServer(function (request, response) {
         const text = fs.readFileSync('./AR_Progect/js/script_5.js', 'utf8');
         response.end(text);
     }
-    else if (request.url == '/AR_Progect/images/pattern-photo5210865773793358070.patt')
+    else if (request.url == '/AR_Progect/images/pattern-094b64de-f0af-4f20-9989-1bc55361e7b4.patt')
     {
-        const text = fs.readFileSync('./AR_Progect/images/pattern-photo5210865773793358070.patt', 'utf8');
+        const text = fs.readFileSync('./AR_Progect/images/pattern-094b64de-f0af-4f20-9989-1bc55361e7b4.patt', 'utf8');
         response.end(text);
     }
 });
