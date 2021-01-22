@@ -36,7 +36,7 @@ const server = http.createServer(function (request, response) {
         const text = fs.readFileSync('./AR_Progect/js/script_5.js', 'utf8');
         response.end(text);
     }
-    else if (request.url == '/AR_Progect/images/pattern-marker.pattt')
+    else if (request.url == '/AR_Progect/images/pattern-marker.patt')
     {
         const text = fs.readFileSync('./AR_Progect/images/pattern-marker.patt', 'utf8');
         response.end(text);
